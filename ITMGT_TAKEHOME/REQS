@@ -1,0 +1,13 @@
+1. Create a set of Corporate Website mockups for the company Digital Espresso.
+Prepare at a minimum the following files:
+• index.html
+• aboutus.html • products.html • branches.html
+Make sure that each page has the following: - standard header with logo (choose any royalty- free images or logos related to coffee) - navigation bar with links to the following: - Home - Prod- ucts - Branches - About - brownish-red background color - standard footer
+2. For products.html:
+• Create a table containing coffee products. You may use the products from the earlier exer- cises.
+• Embed one image per product in the table.
+• Make the name of the product clickable.
+• Create one html file per product. Clicking on the product name from the previous step
+should load the specific product html page. Each product html page should either have a link to go back to the products.html page. Note also that all the pages must follow the standard elements mentioned in 1) (standard header with logo, nav bar, footer, etc.).
+3. Place all your files in a folder which you will then commit to your GitHub repositories.
+4. Notify me via email at jbilagan@ateneo.edu of your upload to GitHub.
