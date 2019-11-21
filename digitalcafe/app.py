@@ -73,7 +73,7 @@ def logout():
     session.pop("cart",None)
     return redirect('/')
 
-@app.route('/addtocart', methods = ['POST', ])
+@app.route('/addtocart', methods = ['POST'])
 def addtocart():
     code = request.form.get('code')
     quantity = int(request.form.get('quantity'))
@@ -99,7 +99,7 @@ def addtocart():
 def cart():
     return render_template('cart.html')
 
-@app.route('/updatecart', methods = ['POST', ])
+@app.route('/updatecart', methods = ['POST'])
 def updatecart():
     
     request_type = request.form.get('submit')
